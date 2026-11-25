@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/elif-droid">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=900&color=B5838D&center=true&vCenter=true&width=520&lines=Computer+Engineering+Student+%40+PoliTo;Python+%C2%B7+Automation+%C2%B7+Data+Tools;Building+things+that+save+people+time+%E2%9C%A8" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=900&color=B5838D&center=true&vCenter=true&width=520&lines=Computer+Engineering+Student;Python+%C2%B7+Automation+%C2%B7+Data+Tools;Building+things+that+save+people+time+%E2%9C%A8" alt="typing"/>
   </a>
 </p>
 
@@ -16,7 +16,7 @@
 
 <img align="right" src="https://github.com/elif-droid.png" width="210" alt="profile picture"/>
 
-I'm a **Computer Engineering student at Politecnico di Torino** who likes building practical tools:
+I'm a **Computer Engineering student** who likes building practical tools:
 automation, data apps and the kind of internal tooling that saves people hours of clicking.
 
 - 🔧 **Now:** building BI tooling with Python and the SAP BusinessObjects REST API during my internship

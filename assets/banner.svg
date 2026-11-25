@@ -46,7 +46,7 @@
     <text x="205" y="22" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#A0717D">~/elif-droid</text>
     <text x="28" y="78" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#B5838D">$ whoami</text>
     <text x="28" y="108" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#6D4C5C">computer engineering student</text>
-    <text x="28" y="134" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#6D4C5C">@ politecnico di torino</text>
+    <text x="28" y="134" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#6D4C5C">building tools &amp; data apps</text>
     <text x="28" y="162" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#B5838D">$ <tspan class="cursor">▍</tspan></text>
   </g></g>
 
