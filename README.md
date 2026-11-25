@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="banner" width="100%"/>
+  <img src="assets/banner-v2.svg" alt="banner" width="100%"/>
 </p>
 
 <h1 align="center">Hi 👋, I'm elif</h1>
