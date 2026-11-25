@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#FBEFF2"/>
+      <stop offset="1" stop-color="#F3D9DF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E9B9C3" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#E9B9C3" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#D8A7B1" opacity="0.45"/>
+    </pattern>
+    <style>
+      .float { animation: float 6s ease-in-out infinite; }
+      .float2 { animation: float 7.5s ease-in-out infinite reverse; }
+      .twinkle { animation: twinkle 2.8s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .t2 { animation-delay: .9s; } .t3 { animation-delay: 1.7s; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+      @keyframes twinkle { 0%,100% { opacity: .25; transform: scale(.7) } 50% { opacity: 1; transform: scale(1) } }
+      @keyframes blink { 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#dots)" opacity="0.55"/>
+
+  <!-- soft blobs -->
+  <g class="float">
+    <circle cx="150" cy="250" r="150" fill="url(#glow)"/>
+    <circle cx="1080" cy="60" r="130" fill="url(#glow)"/>
+  </g>
+
+  <!-- retro window -->
+  <g transform="translate(395 70)"><g class="float2">
+    <rect x="6" y="8" width="410" height="180" rx="14" fill="#E2B4BE" opacity="0.35"/>
+    <rect width="410" height="180" rx="14" fill="#FFFFFF" stroke="#C99AA5" stroke-width="2"/>
+    <rect width="410" height="34" rx="14" fill="#F7E1E6"/>
+    <rect y="20" width="410" height="14" fill="#F7E1E6"/>
+    <line x1="0" y1="34" x2="410" y2="34" stroke="#C99AA5" stroke-width="2"/>
+    <circle cx="22" cy="17" r="6" fill="#E8A3B0"/>
+    <circle cx="42" cy="17" r="6" fill="#F2C6CF"/>
+    <circle cx="62" cy="17" r="6" fill="#FBE3E8" stroke="#E8A3B0"/>
+    <text x="205" y="22" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#A0717D">~/elif-droid</text>
+    <text x="28" y="78" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#B5838D">$ whoami</text>
+    <text x="28" y="108" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#6D4C5C">computer engineering student</text>
+    <text x="28" y="134" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#6D4C5C">@ politecnico di torino</text>
+    <text x="28" y="162" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" fill="#B5838D">$ <tspan class="cursor">▍</tspan></text>
+  </g></g>
+
+  <!-- sparkles -->
+  <g fill="#C98B98">
+    <path class="twinkle" d="M300 70 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5z"/>
+    <path class="twinkle t2" d="M905 230 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+    <path class="twinkle t3" d="M960 95 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z"/>
+    <path class="twinkle t2" d="M250 205 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z"/>
+    <path class="twinkle t3" d="M1110 250 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z"/>
+  </g>
+
+  <!-- tiny hearts -->
+  <g fill="#E8A3B0" class="float">
+    <path d="M140 95 c-6 -9 -20 -3 -14 8 l14 13 14 -13 c6 -11 -8 -17 -14 -8z" opacity="0.8"/>
+    <path d="M1010 175 c-4 -6 -13 -2 -9 5 l9 9 9 -9 c4 -7 -5 -11 -9 -5z" opacity="0.7"/>
+  </g>
+</svg>
